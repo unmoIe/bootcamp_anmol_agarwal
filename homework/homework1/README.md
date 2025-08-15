@@ -1,5 +1,5 @@
 ## Problem Statement
-**Predict short term volatility(daily) in the stock market**
+**Predict short term volatility(daily) in the stock market**    
 Forecasting daily stock market volatility is essential for portfolio risk management.  
 Volatility reflects the degree of variation in stock returns, and sudden spikes can significantly impact portfolio performance.
 Predicting short-term volatility is challenging due to market noise, regime changes, and macroeconomic factors.    
