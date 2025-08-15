@@ -1,6 +1,5 @@
-## Predict short term volatility(daily) in the stock market 
-
 ## Problem Statement
+**Predict short term volatility(daily) in the stock market**
 Forecasting daily stock market volatility is essential for portfolio risk management.  
 Volatility reflects the degree of variation in stock returns, and sudden spikes can significantly impact portfolio performance.
 Predicting short-term volatility is challenging due to market noise, regime changes, and macroeconomic factors.    
@@ -22,18 +21,18 @@ Real time data availability is a constraint of this model to be able to predict 
 Demand for computing resources is a constraint.   
 The model should have a low latency to ensure as close to real-time volatility prediction as possible.   
 
-## Known Unknowns / Risks
+## Known/Unknowns Risks
 Black swan events or outliers which are tough to predict are a source of known risk.   
 Model hyperparameters may require tuning; performance may vary across stocks/sectors.   
 Monitoring plan: Compare predicted vs. realized volatility daily; log errors for model refinement.   
 
-## Lifecycle Mapping
-Goal → Stage → Deliverable 
-Forecast daily stock volatility → Problem Framing & Scoping (Stage 01) → Deliverable: Project scope document, stakeholder mapping 
-Prepare & clean historical data → Data collection and preprocessing → Deliverable: Cleaned dataset and data dictionary 
-Build predictive model → Modeling → Deliverable: Python model with predictions 
-Validate model performance → Evaluation and Backtesting → Deliverable: Forecast accuracy report, visualization plots. 
-Integrate into workflow → Deployment/Artifact Delivery → Deliverable: Reproducible python project with daily forecast outputs. 
+## Lifecycle Mapping   
+Goal → Stage → Deliverable  
+Forecast daily stock volatility → Problem Framing & Scoping (Stage 01) → Deliverable: Project scope document, stakeholder mapping  
+Prepare & clean historical data → Data collection and preprocessing → Deliverable: Cleaned dataset and data dictionary  
+Build predictive model → Modeling → Deliverable: Python model with predictions  
+Validate model performance → Evaluation and Backtesting → Deliverable: Forecast accuracy report, visualization plots.  
+Integrate into workflow → Deployment/Artifact Delivery → Deliverable: Reproducible python project with daily forecast outputs.  
 
 ## Repo Plan
 /data - Raw and cleaned historical stock data  
