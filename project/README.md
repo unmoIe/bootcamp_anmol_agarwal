@@ -53,6 +53,7 @@ Assumption:
 - Drop missing data: The missing values were again random, and you have enough data left afetr dropping to give some substantial outcome.
 - Normalize with min-max scaling: Data is bounded, relative distance between min-max is meaningful.
 - Normalize with standard scaling: data is roughly gaussian, and mean/variance are meaningful representation of data
+
 Tradeoffs:
 - Fill missing data with median: Robust to outliers but may reduce the variance of data incorrectly.
 - Drop missing data: Avoid inducing any bias because there is no addition of data but only when missed dsata is not at random, also prone to losing a lot of data sometimes
