@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 # Ignore environment files
 .env
+# Ignore ipynb checkopints
+**/.ipynb_checkpoints/
